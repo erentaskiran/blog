@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+/* NAVBAR */
+.navbarContainer{
+    width: 90%;
+    background-color: rgb(242,241,240);
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.rightSide{
+    
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-right: 5%;
+    align-items: center;
+    
+}
+h1:hover{
+    color: green;
+}
+.leftSide{
+    width: 25%;
+    height: 100%;
+}
+
+/* HOME PAGE*/
+
+.desc{
+    height: 425px;
+    background-color: rgb(6,54,39);
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.firstPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 72%;
+    margin-left: 14%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  
+  .firstpost {
+    width: 24%; 
+    margin: 20px; 
+  }
+  
+  .firstimg {
+    overflow: hidden;
+  }
+  
+  .firstimg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .firstcontent {
+    padding: 10px;
+  }
+  
+  .firstlink {
+    text-decoration: none;
+    color: #333; /* ya da istediğin başka bir renk */
+  }
+  
+  .firstlink h1 {
+    margin: 0;
+    font-size: 1.2em; /* ya da istediğin başka bir font boyutu */
+  }
+  
+.posts{
+  width: 50%;
+  margin-left: 25%;
+    
+}
+.post{
+  height: 30vh;
+  display: flex;
+  margin: 50px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.img{
+  flex: 1;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+.content{
+  display: flex;
+  flex-direction: column; /* İçeriğin dikey olarak düzenlenmesi */
+  flex: 1;
+  max-width: 50%;
+  align-items: center;
+}
+
+.link h1{
+  height: 20%;
+  font-size: 150%;
+}
+.content p {
+  max-width: 80%;
+  font-size: 13.5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* İlgili satır sayısı */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5; /* Satır yüksekliği, ihtiyaca bağlı olarak değiştirilebilir */
+  word-wrap: break-word;
+  margin: 20px;
+  
+}
+
+/* FOOTER */
+.footerContainer {
+  margin-top: 30%;
+  width: 90%;
+  margin-left: 5%;
+  height: 325px;
+  background-color: rgb(242, 241, 240);
+  margin-bottom: 3%;
+  margin-top: 8%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upSideFooter {
+  display: flex;
+  width: 70%;
+  height: 80%;
+  justify-content: space-between;
+  align-items: flex-end; /* align-items kullanarak alt kısmında hizalama yapabilirsiniz */
+}
+
+/* Örnek için içerik ekleyelim */
+.upSideFooter div {
+  width: 30%; /* Öğelerin genişliğini ayarlayın */
+  text-align: center;
+  padding: 10px;
+}
+.linksFooter{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+hr{
+  border: 2px solid #000; /* Kalınlığı ve rengi ayarlayın */
+  margin: 20px 0;
+  width: 85%;
+}
+.downSideFooter{
+  height: 19%;
+}
+
